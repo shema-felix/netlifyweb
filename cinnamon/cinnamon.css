@@ -314,9 +314,16 @@ button a{
   padding-left: 90px;
   font-size: 20px;
 }
-.button2{
-  padding-top: 50px;}
- 
+.button2 button a{
+  padding-top: 50px; 
+  background-color: rgb(45, 45, 221);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
 .eightimg img{
   
   padding-top:50px;
@@ -454,19 +461,73 @@ li a{
 }
 .seize{
   color: rgb(82 82 82);
-  font-size: 22px;
+  font-size: 19px;
 }
 .paraseize{
-  margin-left: 130px;
+  margin-left: 110px;
   margin-top: 20px;
 }
 .cinnamon img{
-  width: 300px;
+  width: 350px;
 }
 .button4{
   margin-top: 50px;
 }
-.imgc
+.imgc img{
+  width: 330px;
+  
+}
+.imgc{
+  margin-left:100px;
+  /* margin-bottom: 40px; */
+}
+.cont8{
+  background-color:#222222;
+  display: flex;
+  padding-left: 148px;
+  padding-top: 150px;
+  /* column-gap: 10px; */
+  
+}
+.heading10{
+  padding-bottom: 10px;
+
+}
+.growing{
+  color:rgb(249 249 249);
+  font-size: 54px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+}
+.paragraph12{
+  margin-top: 20px;
+
+}
+.para12{
+  color: #cfcfcf;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.horizon{
+  /* display: flex; */
+  
+}
+.cont9{
+  margin-left: 148px;
+  margin-top: 150px;
+  position: relative;
+}
+.pics{
+  display: flex;
+  gap: 17px;
+  margin-top: 30px;
+  /* position: fixed; */
+  
+}
+.pics img{
+  width: 540px;
+}
+
 
 
 
